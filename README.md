@@ -49,26 +49,5 @@ This project is a simple web application that allows users to control the Red, G
 - `styles.css`: Provides basic styles for the sliders, layout, and color display.
 - `script.js`: JavaScript file that listens to changes on the sliders and updates the background color dynamically.
 
-## Example Code
 
-```html
-<input type="range" id="redSlider" min="0" max="255" value="128">
-<input type="range" id="greenSlider" min="0" max="255" value="128">
-<input type="range" id="blueSlider" min="0" max="255" value="128">
 
-<script>
-  const redSlider = document.getElementById('redSlider');
-  const greenSlider = document.getElementById('greenSlider');
-  const blueSlider = document.getElementById('blueSlider');
-  
-  const updateColor = () => {
-    const red = redSlider.value;
-    const green = greenSlider.value;
-    const blue = blueSlider.value;
-    document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
-  };
-
-  redSlider.addEventListener('input', updateColor);
-  greenSlider.addEventListener('input', updateColor);
-  blueSlider.addEventListener('input', updateColor);
-</script>
