@@ -25,7 +25,7 @@ This project is a simple web application that allows users to control the Red, G
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/rgb-slider.git
+   https://codewith-smr.github.io/RGB-Slider/
     ```
    
 2. Navigate to the project directory:
